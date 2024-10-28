@@ -31,7 +31,9 @@ My Personal Portfolio Showcases the following the pages:
 - Included a contact form and a thank you page for when it's submitted.
 - My email address and links to your social media profiles are in the footer on every page, so I didn't add it just here.
 
+### Extra
 
+- I even included a link to the travel blog I made for a past assignment. 
 
-* This code can be found in this repository:*
-* https://github.com/ecyates/module-7-mini-project-personal-portfolio.git*
+*This code can be found in this repository:*
+*https://github.com/ecyates/module-7-mini-project-personal-portfolio.git*

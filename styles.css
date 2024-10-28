@@ -40,6 +40,10 @@ button{
     border-radius: 5px; /* Rounded edges on hover */
 }
 
+h1{
+    text-align: center;
+}
+
 address{
     position:fixed; 
     bottom: 0px; 
