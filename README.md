@@ -1,11 +1,11 @@
-# Module 7 - Mini-Project - Personal Portfolio
+# Module 8 - Mini-Project - Personal Portfolio
 Author: Elizabeth Yates
 
-In this Personal Portfolio project, I embarked on an exciting journey to create a captivating and informative online showcase of your skills, experiences, and interests. This personal portfolio website serves as a digital canvas to express my creativity and showcase my talent to the world.
+In this Personal Portfolio project, I embarked on an exciting journey to create a captivating and informative online showcase of my skills, experiences, and interests. This personal portfolio website serves as a digital canvas to express my creativity and showcase my talent to the world.
 
 ## Project Requirements
 
-My Personal Portfolio Showcases the following the pages: 
+My Personal Portfolio Showcases the following the pages. It now also includes animations, hovering transitions, colors, backgrounds, button interaction, among other features. 
 
 ### Home Page
 
