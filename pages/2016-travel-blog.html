@@ -7,60 +7,65 @@
     <meta name="keywords"content="travel, travel blog, rtw, rtw trip, 2016, Southeast Asia">
     <meta name="author"content="Elizabeth Yates">
     <title>Dos Corazones Por El Mundo: 2016 RTW Trip</title>
-    <style>
-        h1,h2,h3{
-            text-align: center;
-        }
-        table{
-            border-collapse: collapse;
-        }
-        td{
-            padding:0.75%;
-        }
-        th{
-            background-color: gray;
-            text-align: left;
-            border-color: white;
-            padding: 0.75%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <a href="pages/index.html" class="nav-link">Home</a>
+        <a href="pages/about.html" class="nav-link">About Me</a>
+        <a href="pages/projects.html" class="nav-link">Projects</a>
+        <a href="pages/skills.html" class="nav-link">Skills</a>
+        <a href="pages/contact.html" class="nav-link">Contact Me</a>
+    </nav>
     <header>
-        <h1>Dos corazones por el mundo</h1>
+        <div class="image-container">
+            <img class="profile-pic" src="https://media.licdn.com/dms/image/v2/C4E03AQF-tmC3VGSgzA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1598122735512?e=1735171200&v=beta&t=ZIjyDh2jZlazP6U0FZRT6vYxNqmQUCck9ikIVu9XfvE" alt="Headshot of Elizabeth Yates">
+            <h1> Elizabeth Yates</h1>
+        </div>
+        <section class="contact-info">
+            <h2>Reach Out!</h2><hr>
+                <a class="contact-link" href="tel:5037810970">503-781-0970</a>
+                <a class="contact-link" href="mailto:ecyates1@mac.com">ecyates1@mac.com</a>
+                <a class="contact-link" href="https://www.linkedin.com/in/elizabeth-yates-74323457/">LinkedIn</a>
+                <a class="contact-link" href="https://github.com/ecyates">GitHub</a>
+        </section>
+    </header>
+    <section>
+        <h2>Dos corazones por el mundo</h2>
         <p>In 2016, Elizabeth Yates and Cristóbal Berríos set off on an incredible round-the-world trip. 
             Starting in Japan and ending in Egypt, they visited 15 countries in 9 months. 
             This web page overviews their journey from start to finish.</p>
-    </header>
-    <nav>
-        <h2 style="text-align: left;">Overview</h2>
-        <ul>
-            <li><a href="#our-story">Our Story</a></li>
-            <li><a href="#japan-to-philippines">Japan to Philippines</a></li>
-            <li><a href="#indonesia-to-thailand">Indonesia to Thailand</a></li>
-            <li><a href="#thailand-to-us">Thailand to the U.S.</a></li>
-            <li><a href="#the-end">The End</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2 style="text-align: left;">Vuelta al mundo - Calle 13</h2>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" 
-            style="width:100%;max-width:660px;overflow:hidden;background:transparent;" 
-            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
-            src="https://embed.music.apple.com/us/album/la-vuelta-al-mundo/401264687?i=401264964">
-        </iframe>
     </section>
+    <div class="blog-intro">
+        <section>
+            <h2 style="text-align:left;">Overview</h2>
+                <ul>
+                    <li><a href="#our-story">Our Story</a></li>
+                    <li><a href="#japan-to-philippines">Japan to Philippines</a></li>
+                    <li><a href="#indonesia-to-thailand">Indonesia to Thailand</a></li>
+                    <li><a href="#thailand-to-us">Thailand to the U.S.</a></li>
+                    <li><a href="#the-end">The End</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Vuelta al mundo - Calle 13</h2>
+                <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" 
+                    style="overflow:hidden;background:transparent;" 
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                    src="https://embed.music.apple.com/us/album/la-vuelta-al-mundo/401264687?i=401264964">
+                </iframe>
+            </section>
+    </div>
     <main>
     <section id="our-story">
-        <h2>Our Story</h2>
-        <center><p><em>By: Elizabeth Yates | <datetime date="2016-02-14">Feb. 14, 2016</datetime></em></p></center>
-        <center><figure>
-            <img src="/travel-blog-images/image-1.jpg"
+        <h2>Our Story</h2><hr>
+        <p style="text-align: center"><em>By: Elizabeth Yates | <datetime date="2016-02-14">Feb. 14, 2016</datetime></em></p>
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-1.jpg"
             alt="Cris and I on Reñaca Beach in 2014.">
             <figcaption><i>Cris and me on Reñaca Beach in 2014</i></figcaption>
-        </figure></center>
-        <article>
+        </figure>
+        <div>
             <p>Love is in the air and I'm in the mood to tell the story of how I fell in love with my 
                 favorite person in the world, Cristóbal freaking Berríos. So here it goes!</p>
 
@@ -76,13 +81,13 @@
             I still wasn't confident in my Chilean Spanish and I found the quaintness of the café intimidating. 
             On the Friday of my first week, I walked past after my last class and, although it was closed, 
             I noticed a chalkboard posted on the window.</p>
-        </article>    
-        <center><figure>
-            <img src="/travel-blog-images/image-2.jpg"
+            </div>    
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-2.jpg"
             alt="A black board in the window of Spantatuto Cafe that reads 'Lord, give me coffee to change the things I can, and wine to accept the things I can't. Cheers :)'">
             <figcaption><i>The black board in the window of Spantatuto Cafe.</i></figcaption>
-        </figure></center>
-        <article>
+        </figure>
+        <div>
             <p>I felt like this board completely described my life in that moment of stress and totally made my day. 
                 I went on to post this Facebook and my blog and went on about it for days. 
                 I made a promise to myself that I would go in on my break the next week. </p>
@@ -98,13 +103,13 @@
                 When I tried it, the coffee entered my soul and I knew I'd found my new regular place. 
                 Cris's favorite detail is that I left him a tip (not a social requirement at cafes in Chile) 
                 not just that day, but every day I came by. </p>
-        </article>
-        <center><figure>
-            <img src="/travel-blog-images/image-3.png"
+            </div>
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-3.png"
             alt="The view from my table in Spantatuto Cafe. You can see the flower design in the cortado and the sugar dispenser, with the outdoor seating blurry in the background.">
             <figcaption><i>The flower design in my cortado and the sugar dispenser.</i></figcaption>
-        </figure></center>
-        <article>
+        </figure>
+        <div>
             <p>I went back to Spantatuto every time I could and slowly, Cris and I struck up a friendship. 
                 One day he asked me if I like cinnamon in my coffee. Another day he came up to me and showed me a card trick &ndash; 
                 he's a budding magician. One day, he decided he wanted to experiment with different coffee concoctions, 
@@ -132,13 +137,13 @@
                 There was no, “How does he feel? Why doesn't she call me?” crap on either end. 
                 We fit easily into each other's lives like puzzle pieces. We fell in love quickly, and 
                 within 6 months all of our reservations were put to an end. </p>
-        </article>
-        <center><figure>
-            <img src="/travel-blog-images/image-4.png"
+            </div>
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-4.png"
             alt="A selfie of Elizabeth and Cris taken on the street in Providencia. ">
             <figcaption><i>A selfie of us taken on the street in Providencia.</i></figcaption>
-        </figure></center>
-        <article>
+        </figure>
+        <div>
             <p>Cris was offered a job as the office manager at a big mining company and took it. 
                 I finished my 10-month contract at the university and decided to stay in Chile for Cris 
                 and for his great job opportunity. After going home for Christmas, I came back and found a job 
@@ -149,16 +154,16 @@
                 "Let's go travel the world. All of it. Let's make that dream of ours come true."</p>
             <p>Shortly thereafter, I quit my job and decided to take a trip of a lifetime. I can't believe 
                 I get to do it with my love, my best friend, my teammate and partner. </p>
-        </article>
-        <center><figure>
-            <img src="/travel-blog-images/image-5.png"
+            </div>
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-5.png"
             alt="A selfie of Elizabeth and Cris taken in Cris's parents' backyard in Talca, Chile. ">
             <figcaption><i>A selfie of us taken in his parents' backyard in Talca, Chile.</i></figcaption>
-        </figure></center>
+        </figure>
     </section>
     <section id="japan-to-philippines">
-        <h2>Japan to Philippines</h2>
-        <center><table border="1">
+        <h2>Japan to Philippines</h2><hr>
+        <table>
             <tr>
                 <th># of Days</th>
                 <th>Country</th>
@@ -189,19 +194,19 @@
                 <td>Philippines</td>
                 <td>Boracay</td>
             </tr>
-        </table></center>
+        </table>
         <div>
             <h3>Vuelta al Mundo: Part 1</h3>
-            <center><iframe width="560" height="315" 
+            <iframe
             src="https://www.youtube.com/embed/Dst5rhpR1f4?si=fn0lEBSDSd9rbiI5" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>         
     </section>
     <section id="indonesia-to-thailand">
-        <h2>Indonesia to Thailand</h2>
-        <center><table border="1">
+        <h2>Indonesia to Thailand</h2><hr>
+        <table>
             <tr>
                 <th># of Days</th>
                 <th>Country</th>
@@ -242,19 +247,19 @@
                 <td>Southern Thailand</td>
                 <td>Ko Tao, Ko Phi Phi, Ko Phangan</td>
             </tr>
-        </table></center>
+        </table>
         <div>
             <h3>Vuelta al Mundo: Parte 2</h3>
-            <center><iframe width="560" height="315" 
+            <iframe  
             src="https://www.youtube.com/embed/ViUtutxsbEk?si=mtyH6YkV8DE-7ZaU" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </section>
     <section id="thailand-to-us">
-        <h2>Thailand to the U.S.</h2>
-        <center><table border="1">
+        <h2>Thailand to the U.S.</h2><hr>
+        <table>
             <tr>
                 <th># of Days</th>
                 <th>Country</th>
@@ -280,18 +285,18 @@
                 <td>Egypt</td>
                 <td>Cairo, Giza, Saqqara</td>
             </tr>
-        </table></center>
+        </table>
         <div>
             <h3>Vuelta al Mundo: Parte 3</h3>
-            <center><iframe width="560" height="315" 
+            <iframe 
             src="https://www.youtube.com/embed/ldK2BROA1n4?si=d8AR4O5U8nAJRA_b" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </section>
-    <aside>
-        <h2>The End</h2>
+    <section>
+        <h2>The End</h2><hr>
         <p>We hope that you enjoyed sharing in our story. Now, eight years later, our shared lives have only continued
             to bring us new adventures and challenges. After getting engaged at the Taj Mahal in Agra, India, we got
             married once (in Portland, OR), twice (in Talca, Chile), and three times (in Fairhope, AL). We moved back
@@ -299,15 +304,20 @@
             And in March 2024, we took the leap to move to Portland, OR, where we're starting over again. Amor, I have
             to say, it's been a pleasure doing life with you. To the moon, ida y vuelta, te amo!
         </p>
-        <center><figure>
-            <img src="/Users/elizabethyates/Desktop/My Documents/Coding/Coding Temple/CT Homework/Module 7 - HTML/Lesson 2 - HTML Elements for Content and Layout/travel-blog-images/image-6.jpg"
+        <figure>
+            <img class="travel-img" src="travel-blog-images/image-6.jpg"
             alt="Family photo in a pumpkin patch. From left to right: Amaya, Elizabeth, Dante, Cris">
             <figcaption><i>From left to right: Amaya, Elizabeth, Dante, Cris</i></figcaption>
-        </figure></center>
-    </aside>
+        </figure>
+    </section>
     </main>
+    <address>&copy;2024 Elizabeth Yates. All rights reserved.</address>
     <footer>
-        <address>&copy;2024 Elizabeth Yates. All rights reserved.</address>
+        <a href="pages/index.html" class="nav-link">Home</a>
+        <a href="pages/about.html" class="nav-link">About Me</a>
+        <a href="pages/projects.html" class="nav-link">Projects</a>
+        <a href="pages/skills.html" class="nav-link">Skills</a>
+        <a href="pages/contact.html" class="nav-link">Contact Me</a>
     </footer>
 </body>
 </html>
