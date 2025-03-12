@@ -255,6 +255,28 @@ tbody tr:hover {
     box-shadow: 0 4px 8px rgba(29, 2, 0, 0.5);
 }
 
+.skillTable {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+
+.skillTable th, 
+.skillTable td {
+    padding: 12px 15px; 
+    border: none; 
+    text-align: center; 
+    background-color: transparent; 
+    box-shadow: none; 
+}
+
+.skillTable tbody tr:nth-child(even),
+.skillTable tbody tr:hover {
+    background-color: transparent; 
+    box-shadow: none; 
+    transition: none;
+}
 
 footer {
     display: grid;
